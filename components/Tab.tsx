@@ -1,0 +1,1 @@
+export function Tab({ active, onClick, children }: { active?: boolean; onClick: () => void; children: React.ReactNode }) { return (<button onClick={onClick} className={`rounded-full px-4 py-2 text-sm transition ${active ? "bg-white text-[#16083A]" : "border border-white/30 text-white hover:bg-white/10"}`}>{children}</button>); }
